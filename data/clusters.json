@@ -1,0 +1,341 @@
+{
+  "0": {
+    "cluster_id": 0,
+    "size": 373,
+    "pct_of_total": 21.4,
+    "avg_rating": 3.03,
+    "representative_quotes": [
+      {
+        "text": "I checked Spotify today and noticed a new feature that lets you DM people. I tried it and saw a list of \u201csuggested friends\u201d, most I recognized, but a few I couldn\u2019t place. Based on the music shared (it shows every single link you\u2019ve ever sent that someone has opened, as long as t...",
+        "source": "reddit",
+        "provenance": "scraped",
+        "rating": NaN,
+        "helpful_votes": 2023
+      },
+      {
+        "text": "For anyone interested in the *how* of this, every single time you share a song from within Spotify, it generates a unique tracking URL linked to your account that allows Spotify to connect you with anyone else who uses that same link.\n\nIf I click share -> copy link on Spotify, I ...",
+        "source": "reddit",
+        "provenance": "scraped",
+        "rating": NaN,
+        "helpful_votes": 427
+      },
+      {
+        "text": "The visuals are awesome but its extremely bare bones. \nNo top genres?? \nNo stat for how many genres listened to?\nNo listening Location thing? \nNo cute listening profiles or anything new like it? \n\nI get that not everything can come back each year but we didn\u2019t have anything new t...",
+        "source": "reddit",
+        "provenance": "scraped",
+        "rating": NaN,
+        "helpful_votes": 1638
+      },
+      {
+        "text": "Their artist profile is just a bunch of AI generated artwork, I haven't listened to more than 5 seconds of the music but I am assuming the same.\n\n\n\n*\"Alexa, play my liked songs on spotify\"*  \n*\"Playing My Liked Songs from ThreadRipple on Spotify\"*\n\n\n\nIs there anything I can do as...",
+        "source": "reddit",
+        "provenance": "scraped",
+        "rating": NaN,
+        "helpful_votes": 1450
+      },
+      {
+        "text": "I haven't checked my earnings since 2022 and I was actually surprised to break 3 digits. Music has always been my passion and I know it isn't much yet but this shit made me emotional",
+        "source": "reddit",
+        "provenance": "scraped",
+        "rating": NaN,
+        "helpful_votes": 1437
+      },
+      {
+        "text": "Here is a quick guide that I cobbled together for people to visualize how to spot AI artists. Lord knows that spotify doesn't care and will shove this down your random music feed.",
+        "source": "reddit",
+        "provenance": "scraped",
+        "rating": NaN,
+        "helpful_votes": 1661
+      }
+    ],
+    "sources": {
+      "reddit": 322,
+      "app_store": 31,
+      "play_store": 8,
+      "twitter_apify": 6,
+      "spotify_community": 6
+    }
+  },
+  "1": {
+    "cluster_id": 1,
+    "size": 370,
+    "pct_of_total": 21.3,
+    "avg_rating": 4.0,
+    "representative_quotes": [
+      {
+        "text": "Was listening to a perfectly respectable human-made song, when all of a sudden Spotify decided it was time for me to get a taste of the Velvet Sundown Experience \u2728",
+        "source": "reddit",
+        "provenance": "scraped",
+        "rating": NaN,
+        "helpful_votes": 1663
+      },
+      {
+        "text": "As are most of the spotify generated playlists:\n\nDiscover Weekly stacked with songs already on my playlists & Release Radar, another song on music long released, especially live albums...",
+        "source": "reddit",
+        "provenance": "scraped",
+        "rating": NaN,
+        "helpful_votes": 418
+      },
+      {
+        "text": "Discover Weekly was a great service at first. I've found some really good music through it that I probably wouldn't otherwise. Then, a few months ago, I started getting the same tracks again. The first week with any duplicates actually had a song from the week before on it. How d...",
+        "source": "spotify_community",
+        "provenance": "scraped",
+        "rating": NaN,
+        "helpful_votes": 0
+      },
+      {
+        "text": "Crazy times. This morning, while getting breakfast, I instructed Gemini to write a Python script that connects to my Spotify, pulls my liked songs, and uses Gemini to recommend more songs.\n\nEach time I run the script, my Spotify playlist gets updated with 20 new recommended songs...",
+        "source": "twitter_apify",
+        "provenance": "scraped",
+        "rating": NaN,
+        "helpful_votes": 0
+      },
+      {
+        "text": "Hey everyone, Thanks for reaching out about this to the Community. Note that there are several reasons why you might see the same song come up in your Discover Weekly more than once. One of them is that the song was released as part of multiple albums. Because of this it's identi...",
+        "source": "spotify_community",
+        "provenance": "scraped",
+        "rating": NaN,
+        "helpful_votes": 0
+      },
+      {
+        "text": "Hey everyone, Thanks for reaching out about this to the Community. Note that there are several reasons why you might see the same song come up in your Discover Weekly more than once. One of them is that the song was released as part of multiple albums. Because of this it's identi...",
+        "source": "spotify_community",
+        "provenance": "scraped",
+        "rating": NaN,
+        "helpful_votes": 0
+      }
+    ],
+    "sources": {
+      "twitter_apify": 330,
+      "reddit": 18,
+      "spotify_community": 16,
+      "app_store": 5,
+      "play_store": 1
+    }
+  },
+  "2": {
+    "cluster_id": 2,
+    "size": 345,
+    "pct_of_total": 19.8,
+    "avg_rating": 2.09,
+    "representative_quotes": [
+      {
+        "text": "This company has just the worst software. It is slow to load and not very responsive. I click to play a different song and it takes 5 seconds to switch songs, if it does it at all. Constantly disconnects from connected devices. I move a song in the playlist and it bounces around,...",
+        "source": "play_store",
+        "provenance": "scraped",
+        "rating": 1.0,
+        "helpful_votes": 1158
+      },
+      {
+        "text": "When using the Free version of this app, searching and playing a song is broken. For example, if I search and play \"Billie Jean\" by MJ, it will play \"Beat it\" or \"Thriller\". Earlier versions of spotify did not do this and it makes this app one of the most unreliable apps for Free...",
+        "source": "play_store",
+        "provenance": "scraped",
+        "rating": 1.0,
+        "helpful_votes": 688
+      },
+      {
+        "text": "Great way to listen to music and affordable pricing for premium subscription. Edit: Everything in this app is good and conveniently adjustable to one's needs, except the damned \"smart shuffle\". The radio is more than enough to discover new songs. When I want to shuffle/unshuffle ...",
+        "source": "play_store",
+        "provenance": "scraped",
+        "rating": 3.0,
+        "helpful_votes": 884
+      },
+      {
+        "text": "The app has been great but recently with new updates it's become cumbersome to deal with. I like the Spotify DJ, but the app somehow turns off the DJ and switches automatically to Daily Mix 2 which I don't like because I have to keep monitoring my phone now to make sure DJ is up ...",
+        "source": "play_store",
+        "provenance": "scraped",
+        "rating": 1.0,
+        "helpful_votes": 455
+      },
+      {
+        "text": "It keeps repeating the same songs in my playlist over and over again even if my playlist is 27 hours long. There's many songs for it to play, but it just plays the same songs. It's ruining my listening experience. Plus, I can barely even listen to songs without being asked to buy...",
+        "source": "play_store",
+        "provenance": "scraped",
+        "rating": 2.0,
+        "helpful_votes": 744
+      },
+      {
+        "text": "My disappointment is immeasurable and my day is ruined. \nBut seriously, did anyone else expect this to be something that would be fixed or am I just a sucker?",
+        "source": "reddit",
+        "provenance": "scraped",
+        "rating": NaN,
+        "helpful_votes": 1140
+      }
+    ],
+    "sources": {
+      "play_store": 176,
+      "reddit": 74,
+      "app_store": 66,
+      "spotify_community": 24,
+      "twitter_apify": 5
+    }
+  },
+  "3": {
+    "cluster_id": 3,
+    "size": 296,
+    "pct_of_total": 17.0,
+    "avg_rating": 2.38,
+    "representative_quotes": [
+      {
+        "text": "No one cares, but this is after all a rant. \n\nI feel like I am listening to the same music over and over and over and over and over and over and over and over and over and over.\n\nWanna listen to 90s? Here is LUNCH by Billie Eillish \ud83e\udd29\u2728\ufe0f\n\nWanna listen to soft rock? Here is LUNCH by...",
+        "source": "reddit",
+        "provenance": "scraped",
+        "rating": NaN,
+        "helpful_votes": 1153
+      },
+      {
+        "text": "Too many stupid ads, and there's also some sort of bug that Spotify says you'll get 30 minutes of no disturbance from ads, but the next song I put I need to watch an ad and it doesn't stop here! on my phone, I can't replay the same song I was listening to! maybe I misunderstood s...",
+        "source": "play_store",
+        "provenance": "scraped",
+        "rating": 1.0,
+        "helpful_votes": 871
+      },
+      {
+        "text": "It's a really good app, featuring all kinds of music, from old to recent and every genre. I really like it. But the thing is when one hasn't subscribed to the premium features, he's deprived of many choices. That's understandable, but then part of the restrictions is that there's...",
+        "source": "play_store",
+        "provenance": "scraped",
+        "rating": 5.0,
+        "helpful_votes": 16985
+      },
+      {
+        "text": "Free version is almost unusable. Good grief! 4 ads in a row then it tells me I can enjoy 30 minutes ad free. 2 songs later here are 4 more ads. At first I figured maybe a weird glitch. Nope. It's happens several times over the last few days. And on top of the that the ads are hor...",
+        "source": "play_store",
+        "provenance": "scraped",
+        "rating": 1.0,
+        "helpful_votes": 3091
+      },
+      {
+        "text": "Don't waste time with the free version, fork out for premium. Free version is awful, no way of sugar coating that. Do not recommend the unpaid version at all. Premium however is great! There's a huge library of albums, playlists, podcasts; it's particularly helpful being able to ...",
+        "source": "play_store",
+        "provenance": "scraped",
+        "rating": 4.0,
+        "helpful_votes": 855
+      },
+      {
+        "text": "Besides the obvious annoyance\u2014ads play more than music (if you're interested in an ad, & click on it, u can't even stay on it to look further into it bc it'll kick u out by showing another ad)\u2014I have a recommendation on making a \"Spotify Lite\" bc 500MB is RIDICULOUS for a music a...",
+        "source": "play_store",
+        "provenance": "scraped",
+        "rating": 3.0,
+        "helpful_votes": 632
+      }
+    ],
+    "sources": {
+      "play_store": 191,
+      "app_store": 71,
+      "reddit": 33,
+      "twitter_apify": 1
+    }
+  },
+  "4": {
+    "cluster_id": 4,
+    "size": 214,
+    "pct_of_total": 12.3,
+    "avg_rating": 4.6,
+    "representative_quotes": [
+      {
+        "text": "\ud83c\udf1f\ud83c\udf1f\ud83c\udf1f\ud83c\udf1f\ud83c\udf1f Best music app ever! \ud83c\udfb6\ud83d\udc9a Spotify is my favourite app for listening to music anytime, anywhere! It has millions of songs, playlists, podcasts, and moods \u2014 whether I\u2019m studying, chilling, dancing, or feeling low, there\u2019s always something perfect to play \ud83c\udfa7\ud83c\udfb5\ud83d\udc83. The sound quality ...",
+        "source": "play_store",
+        "provenance": "scraped",
+        "rating": 5.0,
+        "helpful_votes": 837
+      },
+      {
+        "text": "Amazing app on all aspects. Huge collection of data, songs and artists of various styles of music and in different languages. Originality and richness of playlists based on your favorite artists and taste of music, sound quality and many many other good options. I actually tried ...",
+        "source": "play_store",
+        "provenance": "scraped",
+        "rating": 5.0,
+        "helpful_votes": 1997
+      },
+      {
+        "text": "Spotify is an amazing music streaming app!\ud83c\udfb5\ud83c\udfb6 It's got an insane library pop song, playlist , and podcasts that cater to every note and test. The discover weekly and Release Rader playlist are always on point, introduction me to new artists and tracks I love. The UI is sleek and u...",
+        "source": "play_store",
+        "provenance": "scraped",
+        "rating": 5.0,
+        "helpful_votes": 9270
+      },
+      {
+        "text": "I absolutely love Spotify, there's not a whole ton of ads for me and I can still listen for free. I like the Spotify wrapped feature at the end of the year and I love the fact you can see your top songs and artists. Also the mixes are just amazing that they make including all my ...",
+        "source": "play_store",
+        "provenance": "scraped",
+        "rating": 5.0,
+        "helpful_votes": 2704
+      },
+      {
+        "text": "Jane Manchun Wong via Twitter:\n\n\u201cSpotify is working on Mixing, a mixtape-like tool for curating how the playlist transitions between musics, down to the beat, effect, waveform, etc\n\nThis is like Apple Music\u2019s AutoMix feature but gives the power of curation to the people\u201d\n\nhttps:/...",
+        "source": "reddit",
+        "provenance": "scraped",
+        "rating": NaN,
+        "helpful_votes": 1851
+      },
+      {
+        "text": "You probably already know Spotify releases the Spotify Wrapped every year, which is a rewind of your listening stats. It presents each user their listening stats for that year, including the most listened-to artists and songs, for example. It's really like an annual event every u...",
+        "source": "spotify_community",
+        "provenance": "scraped",
+        "rating": NaN,
+        "helpful_votes": 0
+      }
+    ],
+    "sources": {
+      "app_store": 119,
+      "play_store": 62,
+      "reddit": 25,
+      "spotify_community": 5,
+      "twitter_apify": 3
+    }
+  },
+  "5": {
+    "cluster_id": 5,
+    "size": 142,
+    "pct_of_total": 8.2,
+    "avg_rating": 3.73,
+    "representative_quotes": [
+      {
+        "text": "App isn't great. Bad UI, glitchy additions of songs to playlists, discrepancies between data of the web client and mobile, and often recommends music I dislike in service to some unknowable algorithm. The ceo investing in the military industrial complex's use of ai makes me plan ...",
+        "source": "play_store",
+        "provenance": "scraped",
+        "rating": 1.0,
+        "helpful_votes": 462
+      },
+      {
+        "text": "I had to edit my review, it used to be 5 stars but I'm lowering it because all of the sudden, every now and then, it'll switch what Im listening to. I've been listening to a podcast's library and it switched me to a curated list. If you want to make me a recommended list, fine bu...",
+        "source": "play_store",
+        "provenance": "scraped",
+        "rating": 2.0,
+        "helpful_votes": 381
+      },
+      {
+        "text": "It takes over your voice commands and forces you to start to play their \"music\" instead of what you actually wanted",
+        "source": "reddit",
+        "provenance": "scraped",
+        "rating": NaN,
+        "helpful_votes": 1774
+      },
+      {
+        "text": "used to be better. you have to pay for basic features now. you can't make a playlist without it adding unwanted extra songs. I hate it so much. when I want to play a song, it starts playing suggested songs instead of the thing I want it to play. awful. still decent app, though at...",
+        "source": "play_store",
+        "provenance": "scraped",
+        "rating": 3.0,
+        "helpful_votes": 250
+      },
+      {
+        "text": "I thought the music video / podcast update would be so good, I was so wrong. First of all the music videos take ages to load and are usually low quality. Second of all the podcast videos get recommended on your homepage with clickbait thumbnails worse than YouTube, and if you lik...",
+        "source": "app_store",
+        "provenance": "scraped",
+        "rating": 2.0,
+        "helpful_votes": 0
+      },
+      {
+        "text": "Good Because I was going to start downloading mp3s if that happened\ud83d\ude02\ud83d\ude02",
+        "source": "reddit",
+        "provenance": "scraped",
+        "rating": NaN,
+        "helpful_votes": 310
+      }
+    ],
+    "sources": {
+      "app_store": 66,
+      "play_store": 62,
+      "reddit": 14
+    }
+  }
+}
