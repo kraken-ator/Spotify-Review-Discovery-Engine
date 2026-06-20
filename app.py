@@ -633,16 +633,24 @@ def render_sidebar():
                    "complaints (the most common topic in any freemium app's reviews), drowning out "
                    "the discovery signal this project measures.")
 
-        st.divider()
+st.divider()
         st.markdown("**API Key**")
-        api_key_input = st.text_input(
-            "Groq API Key", type="password",
-            value=os.getenv("GROQ_API_KEY", ""),
-            placeholder="gsk_...",
-            help="Get a free key at console.groq.com"
-        )
-        if api_key_input:
-            os.environ["GROQ_API_KEY"] = api_key_input
+        
+        # SECURITY FIX: If the key is in Streamlit secrets, load it silently in the backend.
+        # NEVER pass a secret to the value= parameter of a UI text box.
+        if "GROQ_API_KEY" in st.secrets:
+            st.success("✅ API securely connected.")
+            os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
+        else:
+            # Fallback for local testing if secrets aren't configured
+            api_key_input = st.text_input(
+                "Groq API Key", type="password",
+                value=os.getenv("GROQ_API_KEY", ""),
+                placeholder="gsk_...",
+                help="Get a free key at console.groq.com"
+            )
+            if api_key_input:
+                os.environ["GROQ_API_KEY"] = api_key_input
 
         st.divider()
         run_btn = st.button("▶  Run Engine", use_container_width=True)
