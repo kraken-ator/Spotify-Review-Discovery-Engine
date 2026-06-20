@@ -342,7 +342,7 @@ def run_full_pipeline(use_seed=False, use_appstore=True, use_playstore=True,
     try:
         clusters_meta, _ = run_clustering_pipeline(df, output_path="data/clusters.json")
         progress.progress(66)
-        api_key = os.getenv("GROQ_API_KEY", "")
+        api_key = st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY", ""))
         if api_key and api_key != "your-groq-api-key-here":
             status.markdown(f"<p style='color:{TEXT_MUTED};font-size:13px'>⟳ Synthesizing failure modes with Groq...</p>", unsafe_allow_html=True)
             result = run_synthesis_pipeline(clusters_meta, output_path="data/failure_modes.json")
