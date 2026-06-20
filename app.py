@@ -633,7 +633,7 @@ def render_sidebar():
                    "complaints (the most common topic in any freemium app's reviews), drowning out "
                    "the discovery signal this project measures.")
 
-st.divider()
+        st.divider()
         st.markdown("**API Key**")
         
         # SECURITY FIX: If the key is in Streamlit secrets, load it silently in the backend.
