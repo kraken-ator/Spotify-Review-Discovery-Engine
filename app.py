@@ -444,6 +444,34 @@ def render_impact_chart(failure_modes):
 
 # ── Failure mode card ──────────────────────────────────────────────────────────
 
+_TAGLINE_PLACEHOLDER_MARKERS = (
+    "describing this failure mode",
+    "one sharp sentence",
+    "a sharp one-sentence",
+    "one sentence describing",
+)
+
+
+def clean_tagline(fm):
+    """Return a usable tagline, or '' if none.
+
+    The LLM sometimes echoes the prompt's template instruction
+    (e.g. "one sharp sentence describing this failure mode") instead of
+    writing a real tagline. Detect that and fall back to a one-line
+    version of the root cause so the card never shows the placeholder.
+    """
+    raw = (fm.get("tagline") or "").strip().strip('"').strip()
+    low = raw.lower()
+    is_placeholder = (not raw) or any(m in low for m in _TAGLINE_PLACEHOLDER_MARKERS)
+    if not is_placeholder:
+        return raw
+    rc = (fm.get("root_cause") or "").strip().strip('"').strip()
+    if rc:
+        first = rc.split(". ")[0].rstrip(".")
+        return (first[:1].upper() + first[1:]) if first else ""
+    return ""
+
+
 def render_failure_mode_card(fm, idx):
     accent        = CLUSTER_ACCENT_COLORS[idx % len(CLUSTER_ACCENT_COLORS)]
     impact        = fm.get("business_impact", "MEDIUM")
@@ -477,13 +505,16 @@ def render_failure_mode_card(fm, idx):
     if fm.get("jobs_to_be_done"):
         jtbd_html = f'<div class="fm-section-label">Job To Be Done (retrospective)</div><div class="fm-jtbd">🎯 {fm.get("jobs_to_be_done", "")}</div>'
 
+    tagline_text = clean_tagline(fm)
+    tagline_html = f'<div class="fm-tagline">"{tagline_text}"</div>' if tagline_text else ""
+
     st.markdown(f"""
     <div class="{card_class}">
       <div class="fm-accent-bar" style="background:{accent}"></div>
       {banner_html}
       <div class="fm-number">Failure Mode {idx + 1} · {fm.get('pct_of_total', '?')}% of reviews</div>
       <div class="fm-name">{fm.get('failure_mode_name', 'Unnamed')}</div>
-      <div class="fm-tagline">"{fm.get('tagline', '')}"</div>
+      {tagline_html}
       <div class="fm-meta-row">
         <span class="badge" style="background:{impact_color}22;color:{impact_color};border:1px solid {impact_color}55">
           {impact} business impact
