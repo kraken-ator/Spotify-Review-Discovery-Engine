@@ -34,7 +34,9 @@ You have two ways to evaluate this project — pick whichever fits your time.
 
 ### ✅ Option 1 (Recommended): Zero-Click Cloud Dashboard
 
-Click the **Streamlit Cloud link in the presentation deck**. That's it.
+Click the **Streamlit Cloud link in the presentation deck**.
+Click on the left sidebar, Select the data imports you want and click on Run Engine.
+That's it.
 
 The environment, ML libraries, and API keys are fully hosted — there is nothing to install and nothing to configure. The dashboard is live and ready to interact with directly in your browser.
 
